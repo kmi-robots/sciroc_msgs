@@ -1,0 +1,8 @@
+# goal definition
+int8 mode
+---
+# result definition
+sensor_msgs/PointCloud2 crop
+---
+bool test
+# feedback
