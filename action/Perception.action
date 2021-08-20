@@ -3,6 +3,7 @@ int8 mode
 ---
 # result definition
 sensor_msgs/PointCloud2 crop
+string obj_label
 ---
 bool test
 # feedback
