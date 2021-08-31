@@ -6,7 +6,6 @@ find_package(catkin REQUIRED COMPONENTS
     actionlib
     message_generation
     sensor_msgs
-    moveit_msgs
     )
 
 ## Add actions
