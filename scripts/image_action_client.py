@@ -18,7 +18,7 @@ def image_action_client():
     client.wait_for_server()
 
     # Creates a goal to send to the action server.
-    goal = sciroc_msgs.msg.PerceptionGoal(mode=1)
+    goal = sciroc_msgs.msg.PerceptionGoal(mode=2)
 
     # Sends the goal to the action server.
     client.send_goal(goal)

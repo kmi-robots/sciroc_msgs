@@ -5,6 +5,7 @@ int8 mode
 sensor_msgs/PointCloud2 crop
 string obj_label
 geometry_msgs/Pose obj_pose_msg
+string observed_face
 ---
 bool test
 # feedback
